@@ -11,20 +11,26 @@ INSTALL INSTRUCTIONS FOR STREAMONITOR (SC DOPPIO PLAYER v2.1.3 KEY EXTRACTION UP
    
 Linux and macOS
 Create: python3 -m venv venv
+
 Activate: source venv/bin/activate
 
 Windows
 Create: python -m venv venv
+
 Activate (in command prompt): venv\Scripts\activate
 
 4. Upgrade pip (optional):
+
    pip install --upgrade pip
 
 5. Install required packages and Playwright browser
+   
 Run these commands in order (in your activated virtual environment):
 
 pip install -r requirements.txt
+
 pip install psutil playwright
+
 playwright install chromium
 
 6. Run StreaMonitor:
